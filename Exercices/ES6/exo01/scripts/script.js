@@ -1,13 +1,17 @@
 import { Personnage } from "../models/Personnage.js";
 
-let paladin = new Personnage("Hakhio")
-let shaman = new Personnage("Amino")
+// → Création des personnages
+let paladin = new Personnage("Hakhio");
+let shaman = new Personnage("Amino");
 
+// → Affichage des informations des personnages
 console.log('paladin :>> ', paladin.toString());
 console.log('shaman :>> ', shaman.toString());
 
-paladin.frapper(shaman)
-shaman.frapper(paladin)
+// → C'est leur du du-du-duel
+paladin.frapper(shaman);
+shaman.frapper(paladin);
 
+// → Affichage des informations des personnages
 console.log('paladin :>> ', paladin.toString());
 console.log('shaman :>> ', shaman.toString());

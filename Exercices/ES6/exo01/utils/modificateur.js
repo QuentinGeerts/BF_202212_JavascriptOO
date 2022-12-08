@@ -1,3 +1,8 @@
+/**
+ * Fonction de bonus / malus en fonction d'une statistique
+ * @param {number} stats La statistique
+ * @returns {number} Bonus / malus
+ */
 function modificateur(stats) {
 
     // if (stats < 5) return -1
