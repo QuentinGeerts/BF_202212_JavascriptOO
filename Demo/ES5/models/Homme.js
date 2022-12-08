@@ -1,19 +1,19 @@
-import { Personne } from "./Personne.js"
+import { Personne } from "./Personne.js";
 
 function Homme (nom, prenom, dateNaissance, interets, aCalvitie) {
 
-    Personne.call(this, nom, prenom, dateNaissance, interets)
+    Personne.call(this, nom, prenom, dateNaissance, interets);
     // this.nom = nom;
     // this.prenom = prenom;
     // this.dateNaissance = dateNaissance;
     // this.interets = interets;
     this.aCalvitie = aCalvitie;
 
-    Homme.prototype.seRaser = function () { console.log("Zzzzzzz"); }
 
-    Homme.prototype = Object.create(Personne.prototype)
-    Homme.prototype.constructor = Homme
+    Homme.prototype.seRaser = function () { return "Zzzzzzz"; };
 
+    Homme.prototype = Object.create(Personne.prototype);
+    Homme.prototype.constructor = Homme;
 }
 
-export { Homme }
+export default Homme;
