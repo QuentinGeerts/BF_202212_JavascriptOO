@@ -21,3 +21,4 @@ un malus sur base des tests suivants :
     - sinon si elle est inférieure à 10 alors on ajoute 0, 
     - sinon si elle est inférieure à 15 alors on ajoute +1, 
     - sinon on ajoute +2.
+    
