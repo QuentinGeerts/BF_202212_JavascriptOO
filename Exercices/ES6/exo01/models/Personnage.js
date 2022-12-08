@@ -2,9 +2,11 @@ import genererStats from "../utils/genererStats.js";
 import modificateur from "../utils/modificateur.js";
 import De from "./De.js";
 
+/** Classe représentant un personnage */
 class Personnage {
 
     /**
+     * Créer un personnage
      * @param {string} nom Le nom du personnage
      */
     constructor (nom) {

@@ -1,6 +1,8 @@
+/** Classe représentant un dé */
 class De {
 
     /**
+     * Créer un dé
      * @param {number} max Valeur maximum que peut retourner le dé
      */
     constructor (max) {
