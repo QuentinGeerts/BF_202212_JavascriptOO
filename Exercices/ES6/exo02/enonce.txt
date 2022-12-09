@@ -1,7 +1,6 @@
 2. Inheritance
 
-C'est bien beau d'avoir des personnages mais il serait plus intéressant de différencier 
-qui est le héros et qui est le monstre.
+C'est bien beau d'avoir des personnages mais il serait plus intéressant de différencier qui est le héros et qui est le monstre.
 Pour ce faire, vous allez créer une classe Hero et une classe Monstre.
 Ceux-ci sont des personnages donc ils hériteront des membres !
 Les héros ont une méthode Loot() qui prend en paramètre un monstre.
