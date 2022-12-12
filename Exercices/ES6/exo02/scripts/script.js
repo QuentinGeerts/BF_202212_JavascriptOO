@@ -19,6 +19,11 @@ console.log('nain :>> ', nain.toString());
 console.log('loup :>> ', loup.toString());
 console.log('orque :>> ', orque.toString());
 console.log('dragonnet :>> ', dragonnet.toString());
+// console.log('humain :>> ', humain);
+// console.log('nain :>> ', nain);
+// console.log('loup :>> ', loup);
+// console.log('orque :>> ', orque);
+// console.log('dragonnet :>> ', dragonnet);
 
 // → Affrontements
 

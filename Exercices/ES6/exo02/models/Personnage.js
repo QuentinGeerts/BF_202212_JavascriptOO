@@ -38,11 +38,12 @@ class Personnage {
      * @returns {string} Détails du personnage
      */
     toString () {
-        let str = `Nom : ${this.nom} Force: ${this.force} Endurance: ${this.endurance} PV: ${this.pv}`
+        let str = `\nNom : ${this.nom} \nForce: ${this.force} \nEndurance: ${this.endurance} \nPV: ${this.pv}`
         return str + "\nInventaire : "
             + ( "cuir" in this ? `\n - Cuir: ${this.cuir}` : "" )
             + ( "or" in this ? `\n - Or: ${this.or}` : "" );
     }
 }
+
 
 export default Personnage;

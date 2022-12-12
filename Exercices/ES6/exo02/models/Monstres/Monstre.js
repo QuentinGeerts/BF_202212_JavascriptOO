@@ -6,7 +6,7 @@ class Monstre extends Personnage {
     }
 
     toString () {
-        return "Monstre : " + super.toString()
+        return "Monstre" + super.toString()
     }
 }
 

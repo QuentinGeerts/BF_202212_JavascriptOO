@@ -37,7 +37,7 @@ class Heros extends Personnage {
     }
 
     toString () {
-        return "Héros : " + super.toString();
+        return "Héros" + super.toString();
     }
 }
 
