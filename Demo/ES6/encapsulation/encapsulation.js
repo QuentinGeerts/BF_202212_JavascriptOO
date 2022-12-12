@@ -6,6 +6,7 @@ class Personne {
     #_dateNaissance;
 
     constructor (nom, prenom, sexe, dateNaissance) {
+
         this.#_nom = nom;
         this.#_prenom = prenom;
         this.#_sexe = sexe;
@@ -28,7 +29,7 @@ class Personne {
 let p = new Personne('Geerts', 'Quentin', 'M', new Date());
 console.log('p :>> ', p);
 
-console.log(p.nom);
+console.log(p.nom); // get nom | this.nom
 console.log(p.nomComplet);
 
 p.nom = "Dupont";
